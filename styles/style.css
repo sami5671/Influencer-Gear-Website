@@ -1,0 +1,89 @@
+/* Shared style */
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Shared color */
+:root {
+  --gray: #3a3a3a;
+  --purple: #e02c6d;
+  --white: #fff;
+}
+.gray {
+  color: var(--gray);
+}
+.white {
+  color: var(--white);
+}
+.purple {
+  color: var(--purple);
+}
+/* navigation style */
+.navigation {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--gray);
+}
+.nav-items ul {
+  display: flex;
+  gap: 20px;
+}
+.nav-items ul > li {
+  list-style: none;
+}
+.nav-items ul > li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray);
+}
+/* navigation end  */
+/* Banner style start */
+.all-about-banner {
+  border: 2px solid rebeccapurple;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.banner-info {
+  border: 2px solid red;
+  width: 40%;
+}
+.banner-title {
+  color: var(--gray);
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.banner-description {
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+.btn {
+  padding: 10px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 40px;
+  background: var(--purple);
+  color: var(--white);
+}
+.banner-img img {
+  width: 80%;
+  height: 80%;
+}
+.banner-img {
+  border: 2px solid red;
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+
+/* Banner style end */
