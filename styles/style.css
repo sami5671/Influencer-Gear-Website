@@ -101,3 +101,25 @@ body {
   background-color: rgb(250, 253, 255);
 }
 /* companies section end */
+
+/* Small Devices responsive */
+@media screen and (max-width: 576px) {
+  .navigation,
+  .nav-items ul {
+    flex-direction: column;
+  }
+  .all-about-banner {
+    flex-direction: column-reverse;
+  }
+  .banner-info {
+    width: auto;
+    text-align: center;
+  }
+}
+
+/* FOR TABLET DEVICES */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  .all-about-banner {
+    flex-direction: row-reverse;
+  }
+}
