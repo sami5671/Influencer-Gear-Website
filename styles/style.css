@@ -175,6 +175,7 @@ body {
   color: white;
   text-align: center;
   padding: 90px;
+  margin-top: 20px;
 }
 
 /* All collection section End */
@@ -208,6 +209,10 @@ body {
     width: 90%;
     height: auto;
   }
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 /* FOR TABLET DEVICES */
@@ -220,5 +225,9 @@ body {
   }
   .see-more {
     text-align: center;
+  }
+  .feature {
+    flex-direction: column;
+    padding: 20px;
   }
 }
