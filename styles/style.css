@@ -75,6 +75,12 @@ body {
   border: none;
   background: var(--purple);
   color: var(--white);
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--gray);
+  color: white;
+  transition: 1s ease;
 }
 .banner-img img {
   width: 80%;
@@ -137,6 +143,32 @@ body {
   border-radius: 5px;
   width: 100%;
 }
+.see-more {
+  margin-top: 10px;
+  margin-right: 1.2rem;
+  text-align: end;
+}
+.see-more a {
+  text-decoration: none;
+  color: var(--purple);
+  font-size: 1.3rem;
+}
+/* feature section */
+.feature {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 40px 90px 20px 100px;
+}
+.feature img {
+  width: 404px;
+  height: 270px;
+}
+.feature h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
 
 /* All collection section End */
 /* Small Devices responsive */
@@ -155,8 +187,23 @@ body {
   /* all cards */
   .all-cards {
     grid-template-columns: 1fr;
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+  /* feature */
+  .feature {
+    flex-direction: column-reverse;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  .feature img {
+    width: 90%;
+    height: auto;
+  }
+  /* footer */
+  .footer {
+    background-color: #0a0826;
   }
 }
 
@@ -167,5 +214,8 @@ body {
   }
   .all-cards {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .see-more {
+    text-align: center;
   }
 }
